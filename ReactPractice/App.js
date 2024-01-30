@@ -1,6 +1,8 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 
+
+
 export default function App() {
   console.log("app executed");
 
@@ -35,12 +37,16 @@ const styles = StyleSheet.create({
     backgroundColor: "black",
     height: "20%",
     width: "90%",
-    // borderRadius: "30",
+    borderRadius: 30,
     alignItems: "center",
     justifyContent: "center",
+    marginBottom: 20,
+    padding: 5,
   },
   text: {
     color: "white",
-    // fontSize: "100",
+    fontSize: 90,
+    fontFamily: "",
   },
 });
+
